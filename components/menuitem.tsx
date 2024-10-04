@@ -1,4 +1,4 @@
-const MenuItem = ({ image, title, description, price }) => (
+const MenuItem = ({ image, title, description, price }: any) => (
   <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition transform hover:scale-105">
     <img
       src={image}
